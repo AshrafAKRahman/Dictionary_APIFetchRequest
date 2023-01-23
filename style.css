@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 *:not(i) {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
 }
 body {
     background-color: #ae9cff;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+h2{
+    margin-top: 0;
 }
 .container {
     background-color: #ffffff;
@@ -21,6 +29,7 @@ body {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 .search-box {
+    margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
